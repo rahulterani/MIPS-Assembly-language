@@ -6,6 +6,6 @@
 # text section contains all instructions.
 .text
         li $v0, 4                       # syscall number to print text on screen
-        la $a0, myMessage               #loads a0 with address of myMessage
+        la $a0, myMessage               #loads a0 with address of myMessage lol
         syscall
         
